@@ -51,3 +51,9 @@ make run
 - `RENAME OLD.TXT NEW.TXT` updates the FAT12 root-directory entry in place.
 - `DELETE HELLO.TXT` marks the directory entry deleted and frees its FAT chain.
 - This is BIOS-based real mode code, so it is meant for emulators like QEMU.
+
+## Demo
+
+FirstOS running in QEMU with its interactive command shell and FAT12 file operations.
+
+<img width="716" height="427" alt="Screenshot 2026-09-14 at 1 42 10 PM" src="https://github.com/user-attachments/assets/d465eac9-102f-4262-8700-cfe77779825e" />
