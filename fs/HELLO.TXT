@@ -1,0 +1,2 @@
+Hello from the FirstOS filesystem.
+You are reading this from a FAT12 file, not a fake built-in string.
