@@ -1,8 +1,6 @@
 # FirstOS
 
-This is a very small MikeOS-style OS written in 16-bit x86 assembly.
-It boots from a FAT12 floppy image, loads a tiny kernel, and exposes a shell
-with ten built-in commands:
+FirstOS is a bootable operating-system project written in 16-bit x86 assembly. It boots from a FAT12 disk image in QEMU, loads a custom kernel, and provides an interactive command shell with ten built-in commands:
 
 - `HELP`
 - `CLS`
