@@ -1118,7 +1118,7 @@ write_sector_lba:
     ret
 
 banner db "FirstOS", 0x0D, 0x0A
-       db "A tiny MikeOS-style shell with a real FAT12 floppy.", 0x0D, 0x0A
+       db "A bootable 16-bit x86 shell with FAT12 file operations.", 0x0D, 0x0A
        db "Type HELP to get started.", 0x0D, 0x0A, 0x0D, 0x0A, 0
 prompt db "> ", 0
 help_msg db "HELP   - show the command list", 0x0D, 0x0A
